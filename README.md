@@ -9,6 +9,7 @@ Una aplicación web utilizando react+bootstrap
 Es requisito tener instalado npm. Luego se ejecutan los script npm install para instalar los paquetes y npm start para iniciar la app.
 
 `npm install`
+
 `npm start`
 
 
