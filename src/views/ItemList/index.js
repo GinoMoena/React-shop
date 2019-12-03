@@ -21,58 +21,6 @@ class ItemList extends React.Component {
         {name: 'Videojuegos'},
         {name: 'Electrodomésticos'}
       ],
-      items: [
-        {
-          name: 'Televisor Samsung 24"',
-          description: 'Televisor Smart TV, 24 pulgadas Full HD',
-          cost: '199.990'
-        },
-        {
-          name: 'Televisor Samsung 24"',
-          description: 'Televisor Smart TV, 24 pulgadas Full HD',
-          cost: '159.990'
-        },
-        {
-          name: 'Televisor Samsung 24"',
-          description: 'Televisor Smart TV, 24 pulgadas Full HD',
-          cost: '189.990'
-        },
-        {
-          name: 'Televisor Samsung 24"',
-          description: 'Televisor Smart TV, 24 pulgadas Full HD',
-          cost: '144.990'
-        },
-        {
-          name: 'Televisor Samsung 24"',
-          description: 'Televisor Smart TV, 24 pulgadas Full HD',
-          cost: '99.990'
-        },
-        {
-          name: 'Televisor Samsung 24"',
-          description: 'Televisor Smart TV, 24 pulgadas Full HD',
-          cost: '79.990'
-        },
-        {
-          name: 'Televisor Samsung 24"',
-          description: 'Televisor Smart TV, 24 pulgadas Full HD',
-          cost: '179.990'
-        },
-        {
-          name: 'Televisor Samsung 24"',
-          description: 'Televisor Smart TV, 24 pulgadas Full HD',
-          cost: '299.990'
-        },
-        {
-          name: 'Televisor Samsung 24"',
-          description: 'Televisor Smart TV, 24 pulgadas Full HD',
-          cost: '299.990'
-        },
-        {
-          name: 'Televisor Samsung 24"',
-          description: 'Televisor Smart TV, 24 pulgadas Full HD',
-          cost: '19.990'
-        },
-      ]
     })
   }
 
@@ -93,11 +41,6 @@ class ItemList extends React.Component {
           <div className="categories">
             {this.renderCategories()}
           </div>
-          {/* <div style={{float: 'left', width: '1rem'}}>
-            <a href="/#" className="sidebar-button">Link 1</a>
-            <a href="/#" className="sidebar-button">Link 2</a>
-            <a href="/#" className="sidebar-button">Link 3</a>
-          </div> */}
         </div>
 
         <List />
