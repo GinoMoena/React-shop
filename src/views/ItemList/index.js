@@ -27,7 +27,7 @@ class ItemList extends React.Component {
   renderCategories () {
     return this.state.categories.map(c => {
       return (
-        <p key={c.name}><a href="/results/#">{c.name}</a></p>
+        <p key={c.name}><a href="/results#">{c.name}</a></p>
       )
     })
   }

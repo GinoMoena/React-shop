@@ -5,7 +5,7 @@ import logo from '../logo.svg'
 let footerStyle = {
   backgroundColor: '#343A40',
   color: '#F9FDFF',
-  padding: '5rem 10rem 10rem 10rem'
+  padding: '5rem 10rem 10rem 20rem'
 }
 
 function Footer () {
